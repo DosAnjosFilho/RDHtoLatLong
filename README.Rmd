@@ -1,41 +1,46 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-RDHtoLatLong
-============
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# RDHtoLatLong
 
 The goal of RDHtoLatLong is a simple way for converting "Rijksdriehoek" coordinates to lat and long (WGS84) in R.
 
-Rijksdriehoek
--------------
-
+## Rijksdriehoek
 Coordinates in the system of the National Triangulation Survey or in short, National Triangular Coordinates (also: RD coordinates) are the coordinates in the geodetic coordinate system that is used at the national level for the European Netherlands as a basis for geographical indications and files, such as in a geographical information system (GIS). and on maps of the Land Registry and other authorities (such as: Basic map Large-scale Topography (BGT), cadastral map and topographical maps).
 
-Installation
-------------
+## Installation
 
 You can install RDHtoLatLong from github with:
 
-``` r
+```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("EBDAF1/RDHtoLatLong")
 ```
 
-Example
--------
+## Example
 
 Converting the coordinates of the city of Amsterdam in RDH to Lat Long
 
-``` r
+```{r example}
 library(RDHtoLatLong)
 
 x <- 121687
 y <- 487484
 
 RDHtoLatLong(x, y)
-#> [1] 52.374216  4.898012
 ```
 
-Reference
----------
+## Reference
 
 This package was developed based on a [post](https://www.roelvanlisdonk.nl/2012/11/21/simple-way-for-converting-rijksdriehoek-coordinates-to-lat-and-long-wgs84-in-c/) published by Roel Van Lisdonk.
