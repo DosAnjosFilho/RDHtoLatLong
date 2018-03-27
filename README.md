@@ -3,7 +3,7 @@
 RDHtoLatLong
 ============
 
-The goal of RDHtoLatLong is a simple way for converting "Rijksdriehoek" coordinates to lat and long (WGS84) in R.
+The goal of RDHtoLatLong is a simple way for converting "Rijksdriehoek" (RDH) coordinates to lat and long (WGS84) in R.
 
 Rijksdriehoek
 -------------

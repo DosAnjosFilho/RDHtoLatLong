@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 # RDHtoLatLong
 
-The goal of RDHtoLatLong is a simple way for converting "Rijksdriehoek" coordinates to lat and long (WGS84) in R.
+The goal of RDHtoLatLong is a simple way for converting "Rijksdriehoek" (RDH) coordinates to lat and long (WGS84) in R.
 
 ## Rijksdriehoek
 Coordinates in the system of the National Triangulation Survey or in short, National Triangular Coordinates (also: RD coordinates) are the coordinates in the geodetic coordinate system that is used at the national level for the European Netherlands as a basis for geographical indications and files, such as in a geographical information system (GIS). and on maps of the Land Registry and other authorities (such as: Basic map Large-scale Topography (BGT), cadastral map and topographical maps).
