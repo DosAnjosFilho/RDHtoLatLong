@@ -25,7 +25,7 @@ You can install RDHtoLatLong from github with:
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
-devtools::install_github("EBDAF1/RDHtoLatLong")
+devtools::install_github("DosAnjosFilho/RDHtoLatLong")
 ```
 
 ## Example
